@@ -1,17 +1,11 @@
-a = float(input("1st Number:"))
-b = float(input("2nd NUmber:"))
-m = input("Enter m for *, d for /, s for -, a for +.")
-c = a * b
-y = a / b
-f = a + b
-h = a - b
-if m == "m":
-  print(c)
-elif m == "d":
-  print(y)
-elif m == "s":
-  print(h)
-elif m == "a":
-  print(f)
-else:
-  print("Error")
+def times(num, nu):
+  return num * nu
+def div(num, nu):
+  return num / nu
+def add(num, nu):
+  return num + nu
+def sub(num, nu):
+  return num - nu
+print("Functions:\nadd, sub, times, div.\nExample..\ncalc(add, 5, 5)")
+def calc(func, arg1, arg2):
+  print(func(arg1, arg2))
